@@ -2,7 +2,6 @@
 
 ## Current report
 
-<badge-placeholder>
 
 **Execution state:** Not executed / pending browser-based verification.
 
