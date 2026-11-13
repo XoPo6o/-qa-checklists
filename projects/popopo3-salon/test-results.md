@@ -28,7 +28,7 @@ The HTML source and repository asset tree were inspected. Three source-level che
 | Blocked | 0 |
 | Not Run | 24 |
 
-The three Pass results are limited to static source/repository checks (asset path matching, internal anchor matching, and service-card markup). The 24 SAL browser/user scenarios remain Not Run. These counts do not represent a full browser test run.
+The three Pass results are limited to static source/repository checks (asset path matching, internal anchor matching, and service-card markup). SAL-009 is Fail because the contact section still contains placeholders and no confirmed contact channel. The remaining 23 SAL scenarios are Not Run. These counts do not represent a full browser test run.
 
 ## Completed source-level checks
 
@@ -48,7 +48,7 @@ The three Pass results are limited to static source/repository checks (asset pat
 
 - The live GitHub Pages URL could not be independently opened from the available browser/search environment. This is an environment limitation, not proof that the public site is down.
 - No real browser session was available to verify layout at the requested viewport widths, interactions, keyboard behavior, console/network output, or performance.
-- The contact section still contains pending information: booking, address, and schedule are not populated. The owner must provide approved details before the site can function as a complete business contact page.
+- The contact section still contains pending information: booking, address, and schedule are not populated. This is recorded as BUG-SAL-001 and SAL-009 is marked Fail. The owner must provide approved details before the site can function as a complete business contact page.
 - No cross-browser or accessibility audit has been completed.
 
 ## Conclusion
