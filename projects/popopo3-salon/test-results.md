@@ -23,18 +23,25 @@ The HTML source and repository asset tree were inspected. Three source-level che
 
 | Status | Count |
 |---|---:|
-| Pass | 3 |
+| Pass | 4 |
 | Fail | 1 |
 | Blocked | 0 |
 | Not Run | 23 |
 
-The three Pass results are limited to static source/repository checks (asset path matching, internal anchor matching, and service-card markup). SAL-009 is Fail because the contact section still contains placeholders and no confirmed contact channel. The remaining 23 SAL scenarios are Not Run. These counts do not represent a full browser test run.
+Four checks passed: three source-level checks and one GitHub Actions static validation run. SAL-009 is Fail because the contact section still contains placeholders and no confirmed contact channel. The remaining 23 SAL scenarios are Not Run. These counts do not represent a full browser test run.
 
 ## Completed source-level checks
 
 - **SRC-001 — Asset paths:** all 11 image references in the current HTML matched files in the repository, including path casing.
 - **SRC-002 — Internal anchors:** all non-empty in-page hash targets matched existing element IDs.
 - **SRC-003 — Service cards:** four service tiles were changed from links to informational articles and the misleading “Подробнее” action was removed.
+
+## Automated CI result
+
+- Workflow: [Static site checks](https://github.com/XoPo6o/popopo3.github.io/actions/workflows/static-site-checks.yml)
+- Successful run: [run #2](https://github.com/XoPo6o/popopo3.github.io/actions/runs/43472150503)
+- Result: **Success** — HTML local file references, internal anchors, and duplicate IDs passed the dependency-free validator.
+- Note: the first run started before the validator script had been committed and failed because the file was not yet present. The subsequent run, with both workflow and script in the repository, completed successfully.
 
 ## Changes made
 
