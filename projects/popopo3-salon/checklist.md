@@ -13,7 +13,7 @@
 | SAL-006 | Services | — | Review every service item | Service names and descriptions are accurate; no invented prices or claims | — | Not Run | High |
 | SAL-007 | Gallery | — | Inspect every gallery image | Images load, crop correctly, and do not stretch or overlap | — | Not Run | Medium |
 | SAL-008 | Masters | — | Review master profiles and photos | Only approved names, roles, and portraits are shown; layout is consistent | — | Not Run | High |
-| SAL-009 | Contacts | — | Check address, phone, schedule, and contact actions | Details are owner-approved; links open the correct destination | — | Not Run | High |
+| SAL-009 | Contacts | Current HTML on main | Inspect address, phone, schedule, and contact actions | Visitors can find confirmed contact details and business hours | Booking/address/schedule are placeholders; no confirmed contact channel is published (BUG-SAL-001) | Fail | High |
 | SAL-010 | Footer | — | Follow footer navigation and social links | Links are valid and lead to intended destinations | — | Not Run | Medium |
 | SAL-011 | Images / assets | — | Reload with cache disabled and inspect all assets | No broken image, font, CSS, or JavaScript resources | — | Not Run | High |
 | SAL-012 | Responsive | — | Check 360px, 390px, 768px, 1024px, and 1440px widths | No horizontal scrolling or clipped content; layout adapts | — | Not Run | High |
