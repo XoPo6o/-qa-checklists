@@ -40,6 +40,12 @@ These checks were performed against the committed HTML and GitHub repository fil
 | SRC-002 | Internal anchors | Current `main` branch | Compare in-page hash links with element IDs | Every non-empty internal target exists | All referenced section targets exist | Pass | High |
 | SRC-003 | Service card actions | Current `main` branch | Inspect service card markup after fix | Informational cards do not advertise a dead click action | Converted four cards to non-link articles and removed the misleading “Подробнее” CTA | Pass | Medium |
 
+## CI check completed
+
+| ID | Area | Preconditions | Scenario / steps | Expected result | Actual result / evidence | Status | Priority |
+|---|---|---|---|---|---|---|---|
+| CI-001 | GitHub Actions | Commit `85f9ef2215498341b8deea89b15c60caf588e96f` is pushed to `main` | Open the static-site validation workflow run | Validator finishes successfully | GitHub Actions run #2 completed successfully: [view run](https://github.com/XoPo6o/popopo3.github.io/actions/runs/43472150503) | Pass | High |
+
 ## Run details
 
 - Published URL: https://xopo6o.github.io/popopo3.github.io/
