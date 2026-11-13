@@ -24,9 +24,9 @@ The HTML source and repository asset tree were inspected. Three source-level che
 | Status | Count |
 |---|---:|
 | Pass | 3 |
-| Fail | 0 |
+| Fail | 1 |
 | Blocked | 0 |
-| Not Run | 24 |
+| Not Run | 23 |
 
 The three Pass results are limited to static source/repository checks (asset path matching, internal anchor matching, and service-card markup). SAL-009 is Fail because the contact section still contains placeholders and no confirmed contact channel. The remaining 23 SAL scenarios are Not Run. These counts do not represent a full browser test run.
 
